@@ -24,5 +24,11 @@ export const collectionType = defineType({
       type: 'image',
       validation: (rule) => rule.required(),
     }),
+    defineField({
+      title: 'Color',
+      name: 'color',
+      type: 'string',
+      validation: (rule) => rule.required(),
+    })
   ],
 })
